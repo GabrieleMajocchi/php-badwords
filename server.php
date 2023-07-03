@@ -20,6 +20,7 @@ $censored = str_replace($censor, '*****', $paragraph)
         <div class="box">
             <h1>Il paragrafo censurato è:</h1>
             <h1><?php echo $censored; ?></h1>
+            <pre>Con una lunghezza di: <?php echo strlen($censored); ?></pre>
         </div>
     </main>
 
